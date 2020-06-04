@@ -32,7 +32,7 @@ class SearchPageTest {
     @ParameterizedTest
     @CsvSource({
             "alibaba, 阿里巴巴",
-            "JD，     京东"
+            "jd, 京东"
     })
     void search(String keyword, String name) {
            //首先mainPage先启动 一个初始化的过程
